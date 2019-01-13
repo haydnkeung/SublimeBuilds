@@ -1,0 +1,7 @@
+{
+"cmd" : ["gcc", "$file_name", "-o", "${file_base_name}.exe", "&&", "${file_base_name}.exe"],
+"selector" : "source.c",
+"path" : "C:/cygwin64/bin/",
+"shell" : true,
+"working_dir" : "$file_path"
+}
